@@ -37,7 +37,7 @@ const Header: FC<HeaderProps> = ({ signer, setSigner }) => {
 
   return (
     <Flex h={20} justifyContent="space-between" alignItems="center" px={4}>
-      <Flex w={40} fontSize={20} fontWeight="semibold">
+      <Flex w={40} fontSize={18} fontWeight="semibold">
         🐳 Save the SEA
       </Flex>
       <Flex display={["none", "none", "flex"]} gap={8}>
