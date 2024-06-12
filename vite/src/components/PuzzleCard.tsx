@@ -22,6 +22,8 @@ const PuzzleCard: FC<PuzzleCardProps> = ({ index, isMinted }) => {
     }
   };
 
+  useEffect(() => console.log(nftMetadata), [nftMetadata]);
+
   useEffect(() => {
     getNftMetadata();
   }, []);
